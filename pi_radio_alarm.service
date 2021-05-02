@@ -1,0 +1,10 @@
+[Unit]
+Description=pi_radio_alarm
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/lib/pi_radio_alarm/pi_alarm.py
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
