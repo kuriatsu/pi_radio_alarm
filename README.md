@@ -27,3 +27,7 @@ $ sudo systemctl enable pi_radio_alarm.service
 
 * radio_on.sh
 	change frequency for FM radio
+
+## Todo
+* Enable editing parameters (channel, volume, alart time etc.)
+* Make UI
